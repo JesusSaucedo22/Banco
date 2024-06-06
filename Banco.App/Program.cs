@@ -22,7 +22,8 @@ namespace Banco
                 Console.WriteLine("2. Cuenta de Ahorro");
                 Console.WriteLine("3. Cuenta de Cheques");
                 Console.WriteLine("4. Salir");
-                Console.Write("Digite la operación que desee realizar: "); int opcionCuenta = int.Parse(Console.ReadLine());
+                Console.Write("Digite la operación que desee realizar: ");
+                int opcionCuenta = int.Parse(Console.ReadLine());
 
                 if (opcionCuenta == 4)
                 {
@@ -41,7 +42,6 @@ namespace Banco
                 Console.WriteLine("4. Realizar Corte Mensual");
                 int opcionOperacion = int.Parse(Console.ReadLine());
 
-                decimal cantidad;
                 switch (opcionCuenta)
                 {
                     case 1: // Cuenta Básica
