@@ -55,7 +55,7 @@ namespace Banco
                         break;
                 }
 
-                Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                Console.WriteLine("\nPrecione cualquier tecla para continuar...");
                 Console.ReadKey();
             }
         }
