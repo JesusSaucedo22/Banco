@@ -9,7 +9,7 @@
         public CuentaAhorro(decimal saldoInicial) : base(saldoInicial)
         {
             if (saldoInicial < 3000)
-                throw new ArgumentException("Su saldo inicial no puede ser menor a $3,000 para una cuenta de ahorro.");
+                throw new ArgumentException("El saldo inicial no puede ser menor a $3,000 para una cuenta de ahorro.");
         }
        
         public override void RealizarCorteMensual()
