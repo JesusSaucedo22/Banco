@@ -41,7 +41,7 @@
                 this.Saldo -= (chequesEmitidos - 5) * CARGO_CHEQUE;
             }
 
-            // Aplicar cargo por cheques rebotados
+            // Aplicando cargo por cheques rebotados
             this.Saldo -= chequesRebotados * CARGO_REBOTADO;
 
             // Reiniciar contadores
@@ -50,3 +50,4 @@
         }
     }
 }
+
