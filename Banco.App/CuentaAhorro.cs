@@ -2,7 +2,6 @@
 {
     public class CuentaAhorro : CuentaBancaria
     {
-        
         private const decimal TASA_INTERES = 0.01m;
         private const decimal COMISION = 50m;
 
@@ -11,7 +10,7 @@
             if (saldoInicial < 3000)
                 throw new ArgumentException("El saldo inicial no puede ser menor a $3,000 para una cuenta de ahorro.");
         }
-       
+
         public override void RealizarCorteMensual()
         {
             // Aplicar interés
